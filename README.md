@@ -44,6 +44,8 @@ localhost:8080/getPatient?patientID=<CPR>&doctorID=<DOCTOR_WITHOUT_ACCESS>
 A patient can't exist without a medical journal
 
 It should not be possible for a doctor to see a medical journal from a patient that is not his and currently not in his department.
+
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 This challenge "solution" was written in python utilising flask for the web api, it is by no means finished as after 4 hours I ran into issues and decided to end it there. 
